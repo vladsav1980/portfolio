@@ -1,6 +1,6 @@
 import LandingSection from "../components/LandingSection";
-import ProjectsSection from "./routes/ProjectsSection";
-import ContactMeSection from "./routes/ContactMeSection";
+import ProjectsSection from "./ProjectsSection";
+import ContactMeSection from "./ContactMeSection";
 
 function Home() {
   return (

@@ -53,18 +53,13 @@ const ContactMeSection = () => {
   }, [response]);
 
   return (
-    <FullScreenSection
-      isDarkBackground
-      backgroundColor="#512DA8"
-      py={16}
-      spacing={8}
-    >
-      <VStack w="1024px" p={32} alignItems="flex-start">
+    <FullScreenSection isDarkBackground backgroundColor="#512DA8" spacing={8}>
+      <VStack w="80vw" p={16} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
         <Box p={6} rounded="md" w="100%">
-          <form onSubmit={formik.handleSubmit}>
+          <form method="POST" action="https://formspree.io/f/xleyggek">
             <VStack spacing={4}>
               <FormControl
                 isInvalid={
@@ -93,7 +88,12 @@ const ContactMeSection = () => {
               </FormControl>
               <FormControl>
                 <FormLabel htmlFor="type">Type of enquiry</FormLabel>
-                <Select id="type" name="type" {...formik.getFieldProps("type")}>
+                <Select
+                  textColor="#b0b0b0"
+                  id="type"
+                  name="type"
+                  {...formik.getFieldProps("type")}
+                >
                   <option value="hireMe">Freelance project proposal</option>
                   <option value="openSource">
                     Open source consultancy session

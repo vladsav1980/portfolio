@@ -18,10 +18,10 @@ const LandingSection = () => (
       <Heading color="white" size="md">
         {greeting}
       </Heading>
-      <Heading color="white" size="3xl">
+      <Heading color="white" fontSize="6vw">
         {bio1}
       </Heading>
-      <Heading color="white" size="3xl">
+      <Heading color="white" fontSize="6vw">
         {bio2}
       </Heading>
     </VStack>
