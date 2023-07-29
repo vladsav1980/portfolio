@@ -36,6 +36,7 @@ const ProjectsSection = () => {
       backgroundColor="#14532d"
       isDarkBackground
       p={8}
+      py={16}
       alignItems="flex-start"
       spacing={8}
     >

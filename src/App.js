@@ -1,6 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
+import Home from "./routes/Home";
 import ProjectsSection from "./routes/ProjectsSection";
 import ContactMeSection from "./routes/ContactMeSection";
 import Footer from "./components/Footer";
@@ -15,12 +16,10 @@ function App() {
         <main>
           <Header />
           <Routes>
+            <Route path="/home" element={<Home />} />
             <Route path="/projects" element={<ProjectsSection />} />
             <Route path="/contactme" element={<ContactMeSection />} />
           </Routes>
-          <LandingSection />
-          <ProjectsSection />
-          <ContactMeSection />
           <Footer />
           <Alert />
         </main>
