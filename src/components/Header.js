@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { Box, HStack } from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 const socials = [
   {
@@ -93,18 +94,8 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>
-              <a
-                href="/portfolio#projects-section"
-                onClick={handleClick("projects")}
-              >
-                Projects
-              </a>
-              <a
-                href="/portfolio#contactme-section"
-                onClick={handleClick("contactme")}
-              >
-                Contact Me
-              </a>
+              <Link to="/projects">Projects</Link>
+              <Link to="/contactme">Contact me</Link>
             </HStack>
           </nav>
         </HStack>
