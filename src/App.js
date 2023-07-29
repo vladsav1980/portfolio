@@ -14,6 +14,10 @@ function App() {
       <AlertProvider>
         <main>
           <Header />
+          <Routes>
+            <Route path="/projects" element={<ProjectsSection />} />
+            <Route path="/contactme" element={<ContactMeSection />} />
+          </Routes>
           <LandingSection />
           <ProjectsSection />
           <ContactMeSection />
@@ -21,10 +25,6 @@ function App() {
           <Alert />
         </main>
       </AlertProvider>
-      <Routes>
-        <Route path="/projects" element={<ProjectsSection />} />
-        <Route path="/contactme" element={<ContactMeSection />} />
-      </Routes>
     </ChakraProvider>
   );
 }
