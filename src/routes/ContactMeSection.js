@@ -54,11 +54,11 @@ const ContactMeSection = () => {
 
   return (
     <FullScreenSection isDarkBackground backgroundColor="#512DA8" spacing={8}>
-      <VStack w="80vw" p={16} alignItems="flex-start">
+      <VStack w="100%" py={16} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
-        <Box p={6} rounded="md" w="100%">
+        <Box py={6} px={1} rounded="md" w="90%">
           <form method="POST" action="https://formspree.io/f/xleyggek">
             <VStack spacing={4}>
               <FormControl

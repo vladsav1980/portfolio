@@ -74,7 +74,7 @@ const Header = () => {
       <Box color="white" maxWidth="1280px" margin="0 auto">
         <HStack
           px={8}
-          py={0}
+          py={2}
           justifyContent="space-between"
           alignItems="center"
         >
