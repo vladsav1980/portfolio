@@ -16,6 +16,7 @@ const Card = ({ title, description, imageSrc, url }) => {
       _hover={{
         transform: "scale(0.9)",
         transition: "transform 0.7s",
+        textDecoration: "none",
       }}
     >
       <Link href={url} isExternal textDecoration="none">
