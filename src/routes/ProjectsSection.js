@@ -23,6 +23,7 @@ const projects = [
     description:
       "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
     getImageSrc: () => require("../images/photo3.jpg"),
+    url: "https://vladsav1980.github.io/react-space",
   },
   {
     title: "Event planner",

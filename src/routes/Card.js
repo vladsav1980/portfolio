@@ -18,7 +18,7 @@ const Card = ({ title, description, imageSrc, url }) => {
         transition: "transform 0.7s",
       }}
     >
-      <Link href={url} isExternal>
+      <Link href={url} isExternal textDecoration="none">
         <Image src={imageSrc} alt={title} width="100%" borderRadius="md" />
         <Heading as="h2" size="md" fontWeight="semibold">
           {title}
