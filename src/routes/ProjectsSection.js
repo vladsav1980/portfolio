@@ -16,21 +16,21 @@ const projects = [
     description:
       "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
     getImageSrc: () => require("../images/photo2.jpg"),
-    url: "https://vladsav1980.github.io/react-space",
+    url: "https://vladsav1980.github.io/react-scroll",
   },
   {
     title: "Photo Gallery",
     description:
       "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
     getImageSrc: () => require("../images/photo3.jpg"),
-    url: "https://vladsav1980.github.io/react-space",
+    url: "https://vladsav1980.github.io/photo-gallery/",
   },
   {
     title: "Event planner",
     description:
       "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
     getImageSrc: () => require("../images/photo4.jpg"),
-    url: "https://vladsav1980.github.io/react-space",
+    url: "https://vladsav1980.github.io/event-planner",
   },
 ];
 
