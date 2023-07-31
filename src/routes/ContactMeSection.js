@@ -54,7 +54,7 @@ const ContactMeSection = () => {
 
   return (
     <FullScreenSection isDarkBackground backgroundColor="#512DA8" spacing={8}>
-      <VStack w="90vw" py={16} alignItems="flex-start">
+      <VStack w="80vw" py={16} alignItems="flex-start">
         <Heading as="h1" id="contactme-section">
           Contact me
         </Heading>
